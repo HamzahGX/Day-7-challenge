@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(43, 42, 42);
+  width: 100%;
+  padding: 50px 90px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080808;
+  padding: 25px 45px;
+}
+i{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.logo {
+  color: #ffffff;
+}
+.grid{
+  display: grid;
+  grid-template-rows: 450px repeat(4 ,380px);
+  gap: 20px;
+}
+.grid-item{
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+button {
+  margin-top: 60px;
+  margin-left: 60px;
+  background-color: #0b2f57;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.title-button {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: rgb(253, 253, 253);
+
+}
+.item1{
+  background-image: url(/volleyball.jpg);
+  background-size: cover;
+  grid-column: 1/7;
+}
+.item2{
+  background-image: url(/boxing.jpg);
+  background-size: cover;
+  grid-column: 1/3;
+
+}
+.item3{
+  background-image: url(/equistry.jpg);
+  background-size: cover;
+  grid-column: 3/7;
+}
+.item4{
+  background-image: url(/running.jpg);
+  background-size: cover;
+  grid-column: 1/5;
+}
+.item5{
+  background-image: url(/skateboarding.jpg);
+  background-size: cover;
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+.item6{
+  background-image: url(/tennis.jpeg);
+  background-size: cover;
+  grid-column: 1/3;
+}
+.item7{
+  background-image: url(/snowboarding.jpg);
+  background-size: cover;
+  grid-column: 3/5;
+}
+
+.item8{
+  background-image: url(/swimming.jpg);
+  background-size: cover;
+  grid-column: 1/4;
+}
+.item9{
+  background-image: url(/gymnast.jpg);
+  background-size: cover;
+  grid-column: 4/7;
+}
